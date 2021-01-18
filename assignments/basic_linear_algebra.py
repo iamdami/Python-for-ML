@@ -54,7 +54,7 @@ def scalar_matrix_product(alpha, matrix_variable):
 
 
 def is_product_availability_matrix(matrix_a, matrix_b):
-    return len([column_vector for column_vector in zip(*matrix_a)]) == len(matriix_b)
+    return len([column_vector for column_vector in zip(*matrix_a)]) == len(matrix_b)
 
 
 def matrix_product(matrix_a, matrix_b):
